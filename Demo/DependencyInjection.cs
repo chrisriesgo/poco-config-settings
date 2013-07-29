@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Demo
 {
     public class DependencyInjection
     {
-        private IDemoSettings _demoSettings;
+        private readonly IDemoSettings _demoSettings;
 
         public DependencyInjection(IDemoSettings demoSettings)
         {
@@ -17,13 +13,10 @@ namespace Demo
 
         public void ShowConfigValues()
         {
-            Console.WriteLine("Connecting to \"{0}\" on port \"{1}\"", _demoSettings.AppName, _demoSettings.AppId.ToString());
+            Console.WriteLine("Connecting to \"{0}\" ({1})", _demoSettings.AppName, _demoSettings.AppId.ToString());
             Console.WriteLine();
 
-            if (_demoSettings.GrantAccess)
-                Console.WriteLine("You have access!");
-            else
-                Console.WriteLine("You do not have access :(");
+            Console.WriteLine(_demoSettings.GrantAccess ? "You have access!" : "You do not have access :(");
         }
     }
 }

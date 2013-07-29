@@ -1,9 +1,0 @@
-C:\Projects\Test\ConfigSettings\PocoConfigSettings\Demo\bin\Debug\Demo.exe.config
-C:\Projects\Test\ConfigSettings\PocoConfigSettings\Demo\bin\Debug\Demo.exe
-C:\Projects\Test\ConfigSettings\PocoConfigSettings\Demo\bin\Debug\Demo.pdb
-C:\Projects\Test\ConfigSettings\PocoConfigSettings\Demo\bin\Debug\Castle.Core.dll
-C:\Projects\Test\ConfigSettings\PocoConfigSettings\Demo\bin\Debug\Castle.Windsor.dll
-C:\Projects\Test\ConfigSettings\PocoConfigSettings\Demo\bin\Debug\Castle.Core.xml
-C:\Projects\Test\ConfigSettings\PocoConfigSettings\Demo\bin\Debug\Castle.Windsor.xml
-C:\Projects\Test\ConfigSettings\PocoConfigSettings\Demo\obj\Debug\Demo.exe
-C:\Projects\Test\ConfigSettings\PocoConfigSettings\Demo\obj\Debug\Demo.pdb
