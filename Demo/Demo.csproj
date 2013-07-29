@@ -48,13 +48,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfigurationSettings.cs" />
     <Compile Include="DemoSettings.cs" />
+    <Compile Include="IConfigurationSettings.cs" />
     <Compile Include="Utilities\Attributes.cs" />
     <Compile Include="DependencyInjection.cs" />
     <Compile Include="Utilities\Extensions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SettingsBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

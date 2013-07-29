@@ -17,9 +17,9 @@ namespace Demo
             container.Register(Component.For(typeof(DependencyInjection)));
 
             container.Register(
-                Component.For(typeof(IDemoSettings))
-                    .ImplementedBy(typeof(DemoSettings))
-                    .Named("demoSettings"));
+                Component.For(typeof(IConfigurationSettings<>))
+                    .ImplementedBy(typeof(ConfigurationSettings<>))
+                    .Named("configurationSettings"));
             
             var di = container.Resolve<DependencyInjection>();
             di.ShowConfigValues();

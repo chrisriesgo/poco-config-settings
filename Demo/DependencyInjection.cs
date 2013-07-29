@@ -4,11 +4,11 @@ namespace Demo
 {
     public class DependencyInjection
     {
-        private readonly IDemoSettings _demoSettings;
+        private readonly DemoSettings _demoSettings;
 
-        public DependencyInjection(IDemoSettings demoSettings)
+        public DependencyInjection(IConfigurationSettings<DemoSettings> demoSettings)
         {
-            _demoSettings = demoSettings;
+            _demoSettings = demoSettings.Get();
         }
 
         public void ShowConfigValues()

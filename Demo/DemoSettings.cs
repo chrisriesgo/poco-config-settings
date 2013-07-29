@@ -1,16 +1,6 @@
 ﻿namespace Demo
 {
-    public interface IDemoSettings
-    {
-        string AppName { get; set; }
-        int AppId { get; set; }
-        bool GrantAccess { get; set; }
-
-        string OptionalSetting { get; set; }
-        string NoSettingEntry { get; set; }
-    }
-
-    public class DemoSettings : SettingsBase<DemoSettings>, IDemoSettings
+    public class DemoSettings
     {
         /// All properties are implicitly required.
         /// Applying the Optional attribute flags a property as not being required.
