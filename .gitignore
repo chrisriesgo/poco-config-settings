@@ -11,3 +11,5 @@ Thumbs.db
 *.pdb
 Debug
 debug
+bin
+obj
